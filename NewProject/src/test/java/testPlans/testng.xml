@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+	<suite name="TestNG Suite">
+		<test name="Google">
+			<groups>
+				<run>
+					<include name="Priority1" />
+				</run>
+			</groups>
+			
+			<classes>
+				<class name="MyPackage.GoogleTestNG" />
+			</classes>
+			
+		</test>
+		
+		<test name="CebuPacific">
+			<classes>
+				<class name="MyPackage.NewTest" />
+			</classes>
+		</test>
+		
+</suite>
